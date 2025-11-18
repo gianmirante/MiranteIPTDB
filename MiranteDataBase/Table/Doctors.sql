@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Doctors]
+(
+	[DoctorId] NVARCHAR(60) PRIMARY KEY, 
+    [FirstName] NCHAR(50) NOT NULL,
+	LastName NVARCHAR(50) NOT NULL,
+	PatientName NVARCHAR(50) NOT NULL,
+	Specialty NVARCHAR(50) NOT NULL
+)
